@@ -1,0 +1,15 @@
+.home-card {
+    width: 600px; /* Lebar card yang lebih kecil untuk tampilan yang lebih modern */
+    border-radius: 8px; /* Mengurangi sedikit radius sudut */
+    background-color: #f5f5f5; /* Warna latar belakang yang lebih netral */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow yang lebih subtle */
+    padding: 20px; /* Ruang di dalam card yang lebih seimbang */
+    border: 1px solid #e8e8e8; /* Garis tepi untuk memisahkan card dengan latar belakang */
+}
+
+.home-card-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px 0;
+}
