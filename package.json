@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "todolist-sqlx-tauri",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,20 +10,16 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.0.1",
-    "@tauri-apps/api": "^1.5.2",
-    "antd": "^5.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "@reduxjs/toolkit": "^2.0.1",
     "react-redux": "^9.0.4",
-    "react-router-dom": "^6.21.0"
+    "react-router-dom": "^6.21.0",
+    "@tauri-apps/api": "^1.5.2"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.5.7",
     "@vitejs/plugin-react": "^4.0.3",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6",
-    "vite": "^4.4.4"
+    "vite": "^4.4.4",
+    "@tauri-apps/cli": "^1.5.7"
   }
 }

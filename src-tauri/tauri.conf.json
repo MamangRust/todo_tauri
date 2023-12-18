@@ -6,21 +6,18 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "todo-list",
+    "productName": "todolist-sqlx-tauri",
     "version": "0.0.0"
   },
   "tauri": {
     "allowlist": {
-      "all": false,
-      "shell": {
-        "all": false,
-        "open": true
-      }
+      "all": true
+      
     },
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.mamangrust.todo",
+      "identifier": "com.mamangrust.todolist",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -36,7 +33,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "todo-list",
+        "title": "todolist-sqlx-tauri",
         "width": 800,
         "height": 600
       }

@@ -1,5 +1,7 @@
-mod config;
-mod connection_pool;
+mod database;
+mod state;
+mod hash;
 
-pub use self::config::Config;
-pub use self::connection_pool::{ConnectionManager, ConnectionPool};
+pub use self::database::{ConnectionPool, ConnectionManager};
+pub use self::state::AppState;
+pub use self::hash::Hashing;
