@@ -9,29 +9,27 @@ const LoginPage = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
-        console.log('Email:', email);
-        console.log('Password:', password);
-
+    
         try {
-            const response = await invoke('login_user', {
+            const data = await invoke('login_user', {
                 email,
                 password,
             });
-         
-            alert("Ini Response Login: ", response)
-
-            navigate("/todo")
-            console.log('Login Response:', response);
-
+    
+           
+            alert("Response from Login: " + data);
+    
+          
+    
+            navigate("/todo");
         } catch (error) {
-            console.error('Error logging in:', error);
-
+            alert("Error logging in: " + error);
         }
-
+    
         setEmail('');
         setPassword('');
     };
+    
 
     return (
         <div className="container mt-4">
